@@ -2,12 +2,9 @@
 
 Create draft presentations effortlessly with the power of AI. This project leverages multiple AI agents to collaboratively generate presentation content based on user input. 
 
-In this repository, we demonstrate how to use **Semantic Kernel** to orchestrate Multi-Agent systems using **Azure OpenAI** models. We use a swarm agent architecture with **o1-mini** as the orchestrator and **gpt-4o-mini** model as the LLM for the task-oriented agents.
+This repository shows **Semantic Kernel** is used to orchestrate Multi-Agent systems using **Azure OpenAI** models. A swarm agent architecture with **o1-mini** as the orchestrator and **gpt-4o-mini** model as the LLM for the task-oriented agents.
 
 **Semantic Kernel** is utilized for agent orchestration, enabling seamless coordination and communication between different AI agents. By leveraging Semantic Kernel, the system efficiently manages task delegation, context sharing, and workflow automation, ensuring that each agent contributes effectively to the content creation process.
-
-This repository is designed for **learning purposes**, offering insights into the development and integration of multi-agent systems for automated content creation.
-The deck created is only to demonstrate how to add external capabilities with custom Plugins, but there is no intention 
 
 The diagram below shows how the orchestrator create the agents and the expert agents collaborate with each other to accomplish the goal:
 
